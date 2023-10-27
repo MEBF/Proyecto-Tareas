@@ -50,7 +50,7 @@ function TodoProvider({children}) {
         saveTodos(newTodos);
     }
     
-    console.log('hola');
+    /* console.log('hola'); */
 
     return(
         <TodoContext.Provider value={{

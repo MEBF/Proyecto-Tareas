@@ -11,7 +11,7 @@ function TodoCounter(/* {total, completed} */){   //estos parámetros que recibe
 
     return(
         <h1 className='TodoCounter' >
-            Has completado <span>{completedTodos}</span> de <span>{totalTodos}</span> TODOs {/* haciendo uso de las props */}
+            Has completado <span>{completedTodos}</span> de <span>{totalTodos}</span> Tareas {/* haciendo uso de las props */}
         </h1>
     );
 }
